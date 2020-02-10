@@ -1,0 +1,38 @@
+.listado-izquierdo {
+  width: 80%;
+  margin: auto;
+}
+
+.cabecera-listado {
+  border-bottom: 1px solid gray;
+}
+
+.tags {
+  border-bottom: 1px solid gray;
+  ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    li {
+      padding: 2px 4px;
+      background-color: steelblue;
+      margin-right: 15px;
+      color: white;
+    }
+  }
+}
+
+.noticias-destacadas {
+  margin-bottom: 50px;
+  img {
+    width: 100%;
+  }
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

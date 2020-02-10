@@ -1,0 +1,44 @@
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  padding: 10px;
+  border-bottom: 1px solid gray;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+}
+
+.nav {
+  display: inline-block;
+  width: 840px;
+  text-align: right;
+  ul {
+      padding: 0;
+    li {
+      display: inline;
+      padding: 0 0.5rem;
+      a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 0.75rem;
+        &:hover {
+          color: tomato;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+.input-menu {
+  border-radius: 30px;
+}
